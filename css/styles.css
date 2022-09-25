@@ -3,3 +3,56 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: cornflowerblue;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+header img {
+    width: 10%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-left: 1em;
+}
+
+.notification-bell {
+    width: 8%;
+    position: relative;
+    border-right: 1px solid gray;
+    padding-right: 0.4em;
+}
+
+h1 {
+    position: relative;
+    right: 1em;
+}
+
+.name {
+    position: relative;
+    left: 0.5em;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.4em;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(101, 93, 151);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
