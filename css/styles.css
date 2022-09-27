@@ -56,3 +56,18 @@ h1 {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
+
+.alert {
+    background-color: rgb(101, 93, 151);
+    color: #fff;
+    padding: 0.8em;
+    border-radius: 10px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close {
+    cursor: pointer;
+}
